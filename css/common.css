@@ -9,6 +9,7 @@
     left: 0;
     width: 100%;
     z-index: 9999;
+    background: #fff;
 }
 
 #top .inbox {
@@ -38,6 +39,20 @@
     transform: translateX(-50%);
 }
 
-.gnb.right li:last-child{
+.gnb.right li:last-child {
     margin-right: 0;
 }
+
+/*하단 고정*/
+.footer_white{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #fff;
+    height: 4%;
+    width: 100%;
+}
+
+
+

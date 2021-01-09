@@ -1,8 +1,8 @@
 @charset "utf-8";
 /*전체사이트 핵심공통*/
 @font-face {
-    font-family:'Apple';
-    src:url(../fonts/AppleSDGothicM.Neo) format("ttf");
+    font-family:'AppleSDGothic';
+    src:url(../fonts/AppleSDGothic.woff) format("woff");
 }
 @font-face {
     font-family:'Optima';
@@ -19,7 +19,7 @@
 
 /*사이트 전체설정*/
 body{
-    font-family: 'Noto Serif SC', sans-serif;
+    font-family: 'AppleSDGothic', sans-serif;
     color: #333;
 }
 /*IR(Image Replacement)-이미지설명요소 등 안보이게 처리*/
@@ -35,5 +35,5 @@ body{
     width: 1200px;
     max-width: 100%;/*1200px보다 작아질때 화면에 맞춤!*/
     margin: 0 auto;
-    outline: 2px dashed blue;
+    outline: 2px dashed pink;
 }
