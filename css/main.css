@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* 카본뷰티 메인 css - main.css */
+
+/* css머징 */
+@import url(reset.css);
+@import url(core.css);
+@import url(common.css);
+
+
+body{
+    padding-top: 80px;
+}
+
+/*배너 영역*/
+#ban{
+    position: relative;
+}
+
+#ban .inbox{
+    width: 95%;
+}
+
+.ban{
+    position: relative;
+    height: 87vh;
+}
+
+.ban video{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

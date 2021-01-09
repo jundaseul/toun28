@@ -1,0 +1,43 @@
+@charset "utf-8";
+/*톤28 공통 요소 CSS - common.css*/
+
+
+/*헤더*/
+#top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+#top .inbox {
+    position: relative;
+    width: 95%;
+    font-family: 'Optima', serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top {
+    height: 80px;
+    line-height: 80px;
+}
+
+/*gnb*/
+.gnb li {
+    margin-right: 42px;
+}
+
+/*로고*/
+.logo {
+    position: absolute;
+    font-size: 30px;
+    font-weight: 500;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.gnb.right li:last-child{
+    margin-right: 0;
+}
