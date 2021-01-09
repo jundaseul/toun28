@@ -4,6 +4,23 @@
     font-family:'AppleSDGothic';
     src:url(../fonts/AppleSDGothic.woff) format("woff");
 }
+
+@font-face {
+    font-family:'AppleSDGothic';
+    src:url(../fonts/AppleSDGothicNeoT.woff) format("woff");
+}
+
+@font-face {
+    font-family:'AppleSDGothic';
+    src:url(../fonts/AppleSDGothicNeoSB.woff) format("woff");
+}
+
+@font-face {
+    font-family:'AppleSDGothic';
+    src:url(../fonts/AppleSDGothicNeoR.woff) format("woff");
+}
+
+
 @font-face {
     font-family:'Optima';
     src:url(../fonts/Optima.woff2) format("woff2");
