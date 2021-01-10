@@ -204,53 +204,6 @@ body {
 
 
 
-/*하단 영역**************************************************/
-#info {
-    position: relative;
-}
-
-#info .inbox {
-    width: 95%;
-    height: 350px;
-    border-top: 1px solid #333;
-}
-
-.info_txt {
-    width: 1300px;
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 40px 20px;
-    display: flex;
-    justify-content: space-between;
-
-}
-
-.info_logo {
-    font-family: 'Optima', serif;
-    font-size: 25px;
-}
-
-/*하단 오른쪽*/
-.info_right{
-    width: calc(100% - 100px);
-    display: flex;
-    justify-content: flex-end;
-}
-
-.info_list {
-    margin-left: 5%;
-}
-
-.info_list li{
-    float: none;
-    font-size: 14px;
-    line-height: 33px;
-}
-
-.info_list .info_cate{
-    font-size: 15px;
-    padding-bottom: 15px;
-}
 
 
 
