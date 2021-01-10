@@ -133,15 +133,15 @@ body {
 
 
 .prod_list li:nth-child(1) {
-    background: url(../images/prod_01.jpg);
+    background-image: url(../images/prod_01.jpg);
 }
 
 .prod_list li:nth-child(2) {
-    background: url(../images/prod_02.jpg);
+    background-image: url(../images/prod_02.jpg);
 }
 
 .prod_list li:nth-child(3) {
-    background: url(../images/prod_03.jpg);
+    background-image: url(../images/prod_03.jpg);
     margin-right: 0;
 }
 

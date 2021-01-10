@@ -72,6 +72,9 @@
     font-weight: 500;
 }
 
+.info_logo a{
+}
+
 /*하단 오른쪽*/
 .info_right{
     width: calc(100% - 100px);
