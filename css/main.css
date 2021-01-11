@@ -104,7 +104,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     left: 50%;
-    top: 50%;
+    top: 53%;
     transform: translate(-50%, -50%);
 
 }
@@ -117,30 +117,52 @@ body {
     margin-right: 1.5%;
     cursor: pointer;
     flex-basis: 33.33%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    overflow: hidden;
 }
+
+.prod_list li:nth-child(3){
+    margin-right: 0;
+}
+
+/*마우스 오버시 이미지 확대*/
+.prod_list li.zoom::after{
+    transition: all .4s ease-in-out;
+}
+
+.prod_list li.zoom:hover::after{
+    transform: scale(1.1);
+}
+
 
 /*li에 비율박스 적용하기*/
 .prod_list li::before {
     content: '';
     display: block;
     padding-top: 135%;
-    /*반투명박스*/
-    background: rgba(0, 0, 0, 0.3);
 }
 
 
-.prod_list li:nth-child(1) {
+.prod_list li::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.prod_list li:nth-child(1)::after {
     background-image: url(../images/prod_01.jpg);
 }
 
-.prod_list li:nth-child(2) {
+.prod_list li:nth-child(2)::after {
     background-image: url(../images/prod_02.jpg);
 }
 
-.prod_list li:nth-child(3) {
+.prod_list li:nth-child(3)::after {
     background-image: url(../images/prod_03.jpg);
     margin-right: 0;
 }
@@ -154,6 +176,9 @@ body {
     bottom: 0;
     right: 0;
     padding: 30px;
+    /*반투명박스*/
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 9;
 }
 
 .ptxt {
@@ -164,6 +189,7 @@ body {
     color: #fff;
     text-align: center;
     line-height: 30px;
+    z-index: 9;
 }
 
 .ptit {
