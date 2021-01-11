@@ -1,6 +1,7 @@
 $(function () { /////// jQB ///////////////////////
     console.log("로딩완료!");
 
+    /*풀페이지*/
     $("#fullpage").fullpage({
         autoScrolling: true,
         scrollHorizontally: true,
@@ -11,5 +12,8 @@ $(function () { /////// jQB ///////////////////////
         navigationPosition: 'right',
     });
 
+    /*애니메이션 플러그인*/
+    new WOW().init();
+    
 }); ////////// jQB ///////////////////////////////
 /////////////////////////////////////////////////

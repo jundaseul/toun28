@@ -2,22 +2,27 @@
 /*전체사이트 핵심공통*/
 @font-face {
     font-family:'AppleSDGothic';
-    src:url(../fonts/AppleSDGothic.woff) format("woff");
+    src:url(../fonts/AppleSDGothicNeoB.woff) format("woff");
 }
 
 @font-face {
     font-family:'AppleSDGothic';
-    src:url(../fonts/AppleSDGothicNeoT.woff) format("woff");
+    src:url(../fonts/AppleSDGothicNeoEB.woff) format("woff");
 }
 
 @font-face {
     font-family:'AppleSDGothic';
-    src:url(../fonts/AppleSDGothicNeoSB.woff) format("woff");
+    src:url(../fonts/AppleSDGothicNeoH.woff) format("woff");
 }
 
 @font-face {
     font-family:'AppleSDGothic';
-    src:url(../fonts/AppleSDGothicNeoR.woff) format("woff");
+    src:url(../fonts/AppleSDGothicNeoL.woff) format("woff");
+}
+
+@font-face {
+    font-family:'AppleSDGothic';
+    src:url(../fonts/AppleSDGothicNeoM.woff) format("woff");
 }
 
 @font-face {
