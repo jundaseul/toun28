@@ -24,6 +24,7 @@ img{
 a{
     color: #333;
     text-decoration: none;
+    cursor: none;
 }
 /*리스트초기화*/
 ul,ol {

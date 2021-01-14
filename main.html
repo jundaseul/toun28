@@ -8,45 +8,49 @@
     <link rel="stylesheet" href="css/main.css">
     <script src="js/jquery-3.5.0.min.js"></script>
     <script src="js/jquery-ui.min.js"></script>
-    <script src="js/jquery.fullPage.js"></script>
+    <script src="js/jquery.fullPage.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/main.js"></script>
 </head>
 
 <body>
-
+    
+    
+    <!--마우스 커서-->
+    <div id="cursor"></div>
+   
     <!--1.헤더 영역(header.top/100%*80-->
     <div id="top">
         <header class="top inbox">
             <!--1-1.gnb 왼쪽-->
             <ul class="gnb left">
                 <li>
-                    <a href="#">Brand</a>
+                    <a href="#" class="underline">Brand</a>
                 </li>
                 <li>
-                    <a href="#">Products</a>
+                    <a href="#" class="underline">Products</a>
                 </li>
                 <li>
-                    <a href="#">Services</a>
+                    <a href="#" class="underline">Services</a>
                 </li>
                 <li>
-                    <a href="#">Info</a>
+                    <a href="#" class="underline">Info</a>
                 </li>
             </ul>
             <!--1-2.헤더 로고-->
             <h1 class="logo">
-                <a href="/">TOUN28</a>
+                <a href="#">TOUN28</a>
             </h1>
             <!--1-3.bng 오른쪽-->
             <ul class="gnb right">
                 <li>
-                    <a href="#">Cart</a>
+                    <a href="#" class="underline">Cart</a>
                 </li>
                 <li>
-                    <a href="#">Join</a>
+                    <a href="#" class="underline">Join</a>
                 </li>
                 <li>
-                    <a href="#">Login</a>
+                    <a href="#" class="underline">Login</a>
                 </li>
             </ul>
         </header>
@@ -57,7 +61,7 @@
         <div id="ban" class="section page1">
             <section class="ban inbox">
                 <h2 class="bld">배너 영역</h2>
-                <video src="video/banner.mp4" muted playinline autoplay loop></video>
+                <video src="video/banner.mp4" muted playsinline autoplay loop class="vid"></video>
             </section>
         </div>
         
@@ -75,7 +79,10 @@
                     </p>
                     <!--버튼-->
                     <!--                <a class="Btn" href="#"><span>read more</span></a>-->
-                    <a class="btn_box" href="#">read more</a>
+<!--                    <a class="btn_box" href="#">read more</a>-->
+                    <a href="#" class="btn_box">
+                        <span>read more</span>
+                    </a>
                 </div>
             </section>
         </div>
@@ -85,11 +92,6 @@
             <section class="cont_2 inbox">
                 <h2 class="bld">컨텐츠 영역</h2>
                 <ul class="prod_list">
-                    <!--
-                        <div class="prod prod_1"></div>
-                        <div class="prod prod_2"></div>
-                        <div class="prod prod_3"></div>
-                    -->
                     <li class="zoom">
                         <div class="ibx">
                             <div class="ptxt">
@@ -133,7 +135,9 @@
                     </p>
                     <!--버튼-->
                     <!--                <a class="Btn" href="#"><span>read more</span></a>-->
-                    <a class="btn_box" href="#">read more</a>
+                    <a href="#" class="btn_box">
+                        <span>read more</span>
+                    </a>
                 </div>
             </section>
         </div>
@@ -150,43 +154,43 @@
                         <ul class="info_list">
                             <li class="info_cate">Official</li>
                             <li class="info_tit">
-                                <a href="#">이용약관</a>
+                                <a href="#" class="underline">이용약관</a>
                             </li>
                             <li class="info_tit">
-                                <a href="#">개인정보 처리방침</a>
+                                <a href="#" class="underline">개인정보 처리방침</a>
                             </li>
                             <li class="info_tit">
-                                <a href="#">교환 및 반품</a>
+                                <a href="#" class="underline">교환 및 반품</a>
                             </li>
                             <li class="info_tit">
-                                <a href="#">주문조회</a>
+                                <a href="#" class="underline">주문조회</a>
                             </li>
                         </ul>
                         <ul class="info_list">
                             <li class="info_cate">Contact Us</li>
                             <li class="info_tit">
-                                <a href="#">Q&A</a>
+                                <a href="#"class="underline">Q&A</a>
                             </li>
                             <li class="info_tit">
-                                <a href="#">Contact</a>
+                                <a href="#"class="underline">Contact</a>
                             </li>
                             <li class="info_tit">
-                                <a href="#">Notice</a>
+                                <a href="#"class="underline">Notice</a>
                             </li>
                         </ul>
                         <ul class="info_list">
                             <li class="info_cate">Social</li>
                             <li class="info_tit">
-                                <a href="#">Instagram</a>
+                                <a href="#"class="underline">Instagram</a>
                             </li>
                             <li class="info_tit">
-                                <a href="#">Facebook</a>
+                                <a href="#"class="underline">Facebook</a>
                             </li>
                             <li class="info_tit">
-                                <a href="#">Pinterest</a>
+                                <a href="#"class="underline">Pinterest</a>
                             </li>
                             <li class="info_tit">
-                                <a href="#">Kakao</a>
+                                <a href="#"class="underline">Kakao</a>
                             </li>
                         </ul>
                     </div>
@@ -196,7 +200,7 @@
     </div>
    
     <!--하단 고정-->
-    <!--    <div class="footer_white"></div>-->
+<!--        <div class="footer_white"></div>-->
 
 </body>
 
