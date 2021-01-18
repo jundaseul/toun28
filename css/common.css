@@ -18,6 +18,12 @@
     z-index: 99999999;
 }
 
+/*a링크 마우스오버시 커서 확대*/
+.trC{/*transform Cursor*/
+    transform: scale(1.7);
+    transition: all .3s ease-out;
+}
+
 
 /*헤더**************************************************/
 #top {
@@ -86,6 +92,22 @@
     margin-right: 0;
 }
 
+
+/*모바일 메뉴 버튼*/
+.mob_menuBtn{
+    position: relative;
+    width: 70px;
+    height: 28px;
+    border-radius: 50%;
+    border: 1px solid #333;
+    background: transparent;
+    display: none;
+}
+
+.mob_menuBtn a{
+    display: block;
+    font-size: 16px;
+}
 
 
 

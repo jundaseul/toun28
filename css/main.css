@@ -7,6 +7,7 @@
 @import url(common.css);
 @import url(animate.css);
 @import url(jquery.fullPage.css);
+@import url(media.css);
 
 
 body {
@@ -21,6 +22,7 @@ body {
 
 #ban .inbox {
     width: 95%;
+    margin-top: 2%;
 }
 
 .ban {
@@ -48,6 +50,7 @@ body {
     background: url(../images/cont_1.jpg) no-repeat center/cover;
     height: 87vh;
     position: relative;
+    margin-top: 2%;
 }
 
 .cont_1::after {
@@ -170,6 +173,19 @@ body {
     transform: scale(1.05);
 }
 
+/*자세히보기 안보이게*/
+.pmore{
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    color: #fff;
+}
+
+/*호버시 '자세히보기' 나타나기*/
+.prod_list li.zoom:hover .pmore{
+    opacity: 1;
+}
+
+
 
 /*li에 비율박스 적용하기*/
 .prod_list li::before {
@@ -251,6 +267,7 @@ body {
     background: url(../images/main_4.jpg) no-repeat center/cover;
     height: 87vh;
     position: relative;
+    margin-top: 2%;
 }
 
 .cont_3::before {

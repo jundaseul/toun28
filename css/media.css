@@ -1,0 +1,143 @@
+@charset "utf-8";
+/* media.css - 요소의 셋팅 초기화 */
+
+/*아이패드pro 사이즈 - 1024px **********************************************************/
+@media only screen and (max-width: 1024px) {
+
+
+    /*헤더******************************/
+    .top {
+        height: 90px;
+    }
+
+    .gnb {
+        display: none;
+    }
+
+    .mob_menuBtn {
+        display: block;
+    }
+
+    /*배너영역******************************/
+    .section.page1 .ban {}
+
+    #ban.section.page1 .inbox {
+        width: 100%;
+        height: 65vh;
+    }
+
+
+    /*컨텐츠영역 1******************************/
+    #cont_1.section.page2 .inbox {
+        width: 100%;
+        height: 65vh;
+        margin-top: 0;
+    }
+
+    #cont_1.section.page2 .cont_txt p {
+        line-height: 38px;
+        margin-bottom: 160px;
+        font-size: 22px;
+    }
+
+    /*read more 버튼*/
+    #cont_1.section.page2 .btn_box {
+        width: 145px;
+        height: 45px;
+        line-height: 44px;
+    }
+
+    #cont_1.section.page2 .btn_box span {
+        font-size: 18px;
+    }
+
+    /*컨텐츠영역 2 - 상품3개 리스트******************************/
+    #cont_2.section.page3 .inbox {
+        width: 100%;
+        height: 135vh;
+        margin-top: 0;
+    }
+
+    #cont_2.section.page3 .prod_list {
+        flex-direction: column;
+        position: relative;
+        top: auto;
+        left: auto;
+        transform: translate(0)
+    }
+
+    #cont_2.section.page3 .prod_list li {
+        margin-right: 0;
+    }
+
+    #cont_2.section.page3 .prod_list li::before {
+        padding-top: 60%;
+    }
+
+    #cont_2.section.page3 .prod_list li::after {
+        background-position-y: 75%;
+    }
+
+    #cont_2.section.page3 .ptxt {
+        bottom: 10%;
+        line-height: 40px;
+    }
+
+    #cont_2.section.page3 .ptit {
+        font-size: 26px;
+    }
+
+    #cont_2.section.page3 .pmore {
+        font-size: 21px;
+        opacity: 1;
+    }
+
+
+    /*컨텐츠영역 3 - 맨마지막 컨텐츠************************/
+    #cont_3.section.page4 .inbox {
+        width: 100%;
+        height: 65vh;
+        margin-top: 0;
+    }
+
+    #cont_3.section.page4 .cont_txt p {
+        font-size: 21px;
+    }
+
+    #cont_3.section.page4 .cont_3 .cont_txt p > b {
+        font-size: 25px;
+    }
+
+    /*read more 버튼*/
+    #cont_3.section.page4 .btn_box {
+        width: 145px;
+        height: 45px;
+        line-height: 44px;
+    }
+
+    #cont_3.section.page4 .btn_box span {
+        font-size: 18px;
+    }
+
+
+    /*하단 영역****************************/
+    #info.section.page5 .inbox {
+        margin-top: 5%;
+        /*        width: 100%;*/
+    }
+    
+    .info_txt{
+        padding: 40px 30px;
+    }
+
+    .info_list .info_cate {
+        font-size: 19px;
+        padding-bottom: 17px;
+    }
+
+    .info_list li {
+        font-size: 17px;
+        margin-bottom: 17px;
+    }
+
+}
