@@ -6,11 +6,9 @@
 #cursor{
     position: absolute;
 /*
-    width: 40px;
-    height: 40px;
-*/
     width: 30px;
     height: 30px;
+*/
     border-radius: 50%;
 /*    background-color: #E8E6E0;*/
     border: 3px solid #E8E6E0;
@@ -18,10 +16,20 @@
     z-index: 99999999;
 }
 
-/*a링크 마우스오버시 커서 확대*/
-.trC{/*transform Cursor*/
-    transform: scale(1.7);
+.cursor{
+    width: 30px;
+    height: 30px;
+}
+
+/*a링크 마우스오버시 커서 확대, 색채우기*/
+.curfill {
+    opacity: .6;
+    transform: scale(1.6);
     transition: all .3s ease-out;
+/*
+    border: none;
+    background-color: #E8E6E0;
+*/
 }
 
 

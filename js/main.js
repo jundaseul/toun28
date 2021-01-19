@@ -12,17 +12,16 @@ $(function () { /////// jQB ///////////////////////
             left: posx + "px"
         });
 
-
     }); //////////////// mousemove ///////////////
 
 
     /*a링크 마우스오버시 커서 확대*/
     $("a").hover(
         function () {
-            $("#cursor").addClass("trC");
+            $("#cursor").addClass("curfill");
         },
         function () {
-            $("#cursor").removeClass("trC");
+            $("#cursor").removeClass("curfill");
         });
 
     
