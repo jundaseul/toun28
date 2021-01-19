@@ -33,7 +33,8 @@ body {
 .ban video {
     position: absolute;
     left: 0;
-    top: 0;
+/*    top: 0;*/
+    top: 2px;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -174,14 +175,14 @@ body {
 }
 
 /*자세히보기 안보이게*/
-.pmore{
+.pmore {
     opacity: 0;
     transition: opacity .3s ease-in-out;
     color: #fff;
 }
 
 /*호버시 '자세히보기' 나타나기*/
-.prod_list li.zoom:hover .pmore{
+.prod_list li.zoom:hover .pmore {
     opacity: 1;
 }
 
@@ -280,9 +281,9 @@ body {
 
 .cont_3 .cont_txt p > b {
     font-size: 23px;
+    font-weight: 500;
 }
 
-.cont_3 .btn_box{
+.cont_3 .btn_box {
     height: 42px;
 }
-
