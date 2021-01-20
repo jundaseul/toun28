@@ -1,5 +1,12 @@
 $(function () { /////// jQB ///////////////////////
     console.log("로딩완료!");
+    
+    //모든 a태그 이동 막기
+    $('a[href="#"]').click(function (e) {
+        e.preventDefault();
+    });
+
+    
 
     /*마우스 커서*/
     $("body").mousemove(function (e) {
