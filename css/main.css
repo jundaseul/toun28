@@ -5,7 +5,6 @@
 @import url(reset.css);
 @import url(core.css);
 @import url(common.css);
-@import url(animate.css);
 @import url(jquery.fullPage.css);
 @import url(media.css);
 
@@ -66,6 +65,8 @@ body {
 /*텍스트*/
 .cont_txt {
     position: absolute;
+    width: 630px;
+    height: 50%;
     left: 50%;
     top: 55%;
     transform: translate(-50%, -50%);
@@ -73,6 +74,15 @@ body {
     text-align: center;
     white-space: nowrap;
     z-index: 999;
+    overflow: hidden;
+}
+
+.cont1_txt_ani {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 5%;
+    opacity: 0;
 }
 
 .cont_txt p {
@@ -81,15 +91,20 @@ body {
     font-size: 18px;
 }
 
+.cont1_txt_2{
+    display: none;
+    font-family:'Optima', sans-serif;
+}
 
 .btn_box {
-    position: relative;
+    position: absolute;
     display: block;
+    left: 50%;
+    transform: translateX(-50%);
     width: 130px;
     height: 41px;
     line-height: 40px;
     border: 1px solid #fff;
-    margin: 0 auto;
     color: #fff;
     overflow: hidden;
 }
@@ -146,8 +161,9 @@ body {
     display: flex;
     justify-content: space-evenly;
     left: 50%;
-    top: 53%;
+    top: 150%;/*풀페이지 애니메이트를 위해 탑값 변경*/
     transform: translate(-50%, -50%);
+    opacity: 0;
 
 }
 
@@ -278,6 +294,7 @@ body {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.2);
 }
+
 
 .cont_3 .cont_txt p > b {
     font-size: 23px;

@@ -9,16 +9,42 @@
     <script src="js/jquery-3.5.0.min.js"></script>
     <script src="js/jquery-ui.min.js"></script>
     <script src="js/jquery.fullPage.min.js"></script>
-    <script src="js/wow.min.js"></script>
     <script src="js/main.js"></script>
 </head>
 
 <body>
-    
-    
+
+
     <!--마우스 커서-->
     <div id="cursor" class="cursor"></div>
-   
+
+    <!--메뉴 박스(아이패드 사이즈부터)-->
+    <div id="bgBox">
+        <div class="menu_box">
+            <nav>
+                <ul class="mob_gnb">
+                    <li>
+                        <a href="#">Brand</a>
+                    </li>
+                    <li>
+                        <a href="#">Products</a>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <div class="mob_gnb_bottom">
+                        <li>
+                            <a href="#">Login</a>
+                        </li>
+                        <li>
+                            <a href="#">Join</a>
+                        </li>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
     <!--1.헤더 영역(header.top/100%*80-->
     <div id="top">
         <header class="top inbox">
@@ -35,9 +61,9 @@
                 </li>
             </ul>
             <!--모바일 메뉴 버튼-->
-            <button class="mob_menuBtn">
+            <button class="mob_menuBtn on">
                 <h1 class="bld">모바일 메뉴 버튼</h1>
-                <a href="#">Menu</a>
+                <a href="#" >Menu</a>
             </button>
             <!--1-2.헤더 로고-->
             <h1 class="logo">
@@ -72,31 +98,33 @@
                 </video>
             </section>
         </div>
-        
+
         <!--3.컨텐츠 영역(section.cont_1)-->
         <div id="cont_1" class="section page2">
             <section class="cont_1 inbox">
                 <h2 class="bld">컨텐츠 영역</h2>
                 <div class="cont_txt">
-                    <p>
-                        단 하나뿐인 당신만을 위한 바를거리<br>
-                        균형잡힌 식단이 건강한 몸을 만들듯 균형 잡힌 성분이 건강한 피부를 만듭니다.<br>
-                        <br>
-                        톤28이 당신에게 닿기까지,<br>
-                        지금 바로 톤28의 맞춤 화장품을 사용해보세요.
-                    </p>
-                    <!--버튼-->
-                    <!--                <a class="Btn" href="#"><span>read more</span></a>-->
-<!--                    <a class="btn_box" href="#">read more</a>-->
-                    <a href="#" class="btn_box">
-                        <span>read more</span>
-                    </a>
+                    <div class="cont1_txt_ani">
+                        <p class="cont1_txt_1">
+                            단 하나뿐인 당신만을 위한 바를거리<br>
+                            균형잡힌 식단이 건강한 몸을 만들듯 균형 잡힌 성분이 건강한 피부를 만듭니다.<br>
+                            <br>
+                            톤28이 당신에게 닿기까지,<br>
+                            지금 바로 톤28의 맞춤 화장품을 사용해보세요.
+                        </p>
+                        <p class="cont1_txt_2">
+                            DATA CHANGE YOUR SKIN.
+                        </p>
+                        <a href="#" class="btn_box">
+                            <span>read more</span>
+                        </a>
+                    </div>
                 </div>
             </section>
         </div>
-        
+
         <!--4.컨텐츠 영역(section.cont_2)-->
-        <div id="cont_2" class="section page3">
+        <div id="cont_2" class="section page3 ">
             <section class="cont_2 inbox">
                 <h2 class="bld">컨텐츠 영역</h2>
                 <ul class="prod_list">
@@ -127,29 +155,54 @@
                 </ul>
             </section>
         </div>
-        
+
         <!--5.컨텐츠 영역(section.cont_3)-->
         <div id="cont_3" class="section page4">
             <section class="cont_3 inbox">
                 <h2 class="bld">컨텐츠 영역</h2>
                 <div class="cont_txt">
-                    <p>
-                        <b>
-                            환경을 생각하지 않습니다.<br>
-                            환경을 위해 행동합니다.<br>
-                        </b>
-                        <br>
-                        사람과 환경에 유익한 건강한 아름다움을 위해 행동합니다.
-                    </p>
-                    <!--버튼-->
-                    <!--                <a class="Btn" href="#"><span>read more</span></a>-->
-                    <a href="#" class="btn_box">
-                        <span>read more</span>
-                    </a>
+                    <div class="cont1_txt_ani cont2_txt">
+                        <p class="cont1_txt_1">
+                            <b>
+                                환경을 생각하지 않습니다.<br>
+                                환경을 위해 행동합니다.<br>
+                            </b>
+                            <br>
+                            사람과 환경에 유익한 건강한 아름다움을 위해 행동합니다.
+                        </p>
+                        <p class="cont1_txt_2">
+                            TOUN28 MISSON
+                        </p>
+                        <a href="#" class="btn_box">
+                            <span>read more</span>
+                        </a>
+                    </div>
                 </div>
+
+
+                <!--
+                <div class="cont_txt">
+                    <div class="cont1_txt_ani cont2_txt">
+                        <p class="cont1_txt_1">
+                            <b>
+                                환경을 생각하지 않습니다.<br>
+                                환경을 위해 행동합니다.<br>
+                            </b>
+                            <br>
+                            사람과 환경에 유익한 건강한 아름다움을 위해 행동합니다.
+                        </p>
+                        <p class="cont_1_txt_2">
+                            TOUN28 MISSON
+                        </p>
+                        <a href="#" class="btn_box">
+                            <span>read more</span>
+                        </a>
+                    </div>
+                </div>
+-->
             </section>
         </div>
-        
+
         <!--6.하단 영역(footer.info)-->
         <div id="info" class="section page5 fp-auto-height">
             <section class="info inbox">
@@ -177,28 +230,28 @@
                         <ul class="info_list">
                             <li class="info_cate">Contact Us</li>
                             <li class="info_tit">
-                                <a href="#"class="underline">Q&A</a>
+                                <a href="#" class="underline">Q&A</a>
                             </li>
                             <li class="info_tit">
-                                <a href="#"class="underline">Contact</a>
+                                <a href="#" class="underline">Contact</a>
                             </li>
                             <li class="info_tit">
-                                <a href="#"class="underline">Notice</a>
+                                <a href="#" class="underline">Notice</a>
                             </li>
                         </ul>
                         <ul class="info_list">
                             <li class="info_cate">Social</li>
                             <li class="info_tit">
-                                <a href="#"class="underline">Instagram</a>
+                                <a href="#" class="underline">Instagram</a>
                             </li>
                             <li class="info_tit">
-                                <a href="#"class="underline">Facebook</a>
+                                <a href="#" class="underline">Facebook</a>
                             </li>
                             <li class="info_tit">
-                                <a href="#"class="underline">Pinterest</a>
+                                <a href="#" class="underline">Pinterest</a>
                             </li>
                             <li class="info_tit">
-                                <a href="#"class="underline">Kakao</a>
+                                <a href="#" class="underline">Kakao</a>
                             </li>
                         </ul>
                     </div>
@@ -206,9 +259,9 @@
             </section>
         </div>
     </div>
-   
+
     <!--하단 고정-->
-<!--        <div class="footer_white"></div>-->
+    <!--        <div class="footer_white"></div>-->
 
 </body>
 

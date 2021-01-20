@@ -68,4 +68,5 @@ body{
     max-width: 100%;/*1200px보다 작아질때 화면에 맞춤!*/
     margin: 0 auto;
 /*    outline: 2px dashed pink;*/
+    overflow: hidden;
 }

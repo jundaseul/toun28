@@ -51,6 +51,22 @@
         font-size: 18px;
     }
 
+    #cont_1.section.page2 .cont1_txt_ani,
+    #cont_3.section.page4 .cont1_txt_ani {
+        width: 100%;
+        top: 50% !important;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 1 !important;
+    }
+
+    #cont_1.section.page2 .cont_txt,
+    #cont_3.section.page4 .cont_txt {
+        width: 100%;
+        height: 100%;
+        top: 50%;
+    }
+
     /*컨텐츠영역 2 - 상품3개 리스트******************************/
     #cont_2.section.page3 .inbox {
         width: 100%;
@@ -61,9 +77,10 @@
     #cont_2.section.page3 .prod_list {
         flex-direction: column;
         position: relative;
-        top: auto;
         left: auto;
-        transform: translate(0)
+        transform: translate(0);
+        top: 0 !important;
+        opacity: 1 !important;
     }
 
     #cont_2.section.page3 .prod_list li {
@@ -93,6 +110,7 @@
     }
 
 
+
     /*컨텐츠영역 3 - 맨마지막 컨텐츠************************/
     #cont_3.section.page4 .inbox {
         width: 100%;
@@ -119,6 +137,8 @@
     #cont_3.section.page4 .btn_box span {
         font-size: 18px;
     }
+
+
 
 
     /*하단 영역****************************/
@@ -224,18 +244,68 @@
 
 /*모바일 - 480px **********************************************************/
 @media only screen and (max-width: 480px) {
+    
+    #bgBox{
+        top: 76px;
+    }
+    
+    .menu_box{
+        width: 100%;
+    }
 
     /*헤더*/
     #top {
         width: 100vw;
     }
 
+    .top {
+        height: 75px;
+    }
+
+    /*배너*/
+    #ban.section.page1 .inbox {
+        height: 100vh;
+    }
+
+
+    /*두번째 섹션*/
+    /*
     #cont_1.section.page2 .cont_txt p {
         line-height: 25px;
         margin-bottom: 110px;
         font-size: 12px;
     }
+*/
 
+    #cont_1.section.page2 .cont_txt,
+    #cont_3.section.page4 .cont_txt {
+        width: 100%;
+        height: 100%;
+        top: 50%;
+    }
+
+
+
+    /*텍스트*/
+    .cont1_txt_1 {
+        display: none;
+    }
+
+    #cont_1.section.page2 .cont_txt p.cont1_txt_2,
+    #cont_3.section.page4 .cont_txt p.cont1_txt_2 {
+        font-size: 27px;
+        display: block;
+        margin-top: -13%;
+        margin-bottom: 0;
+    }
+
+    #cont_1.section.page2 .btn_box,
+    #cont_3.section.page4 .btn_box {
+        width: 140px;
+        margin-top: 40%;
+    }
+
+    /*세번째 섹션 - 상품리스트*/
     #cont_2.section.page3 .inbox {
         height: 118vh;
     }
@@ -244,13 +314,26 @@
         padding-top: 70%;
     }
 
-    #cont_3.section.page4 .cont_txt p {
-        font-size: 12px;
-        margin-bottom: 110px;
+    /*마지막 섹션*/
+
+    /*푸터*/
+    #info.section.page5 .inbox {
+        margin-top: 10%;
     }
 
     .info_txt {
         padding: 30px 10px;
     }
+
+    .info_right {
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    .info_list {
+        margin-left: 0;
+        margin-right: 8%;
+    }
+
 
 }
