@@ -244,13 +244,14 @@
 
 /*모바일 - 480px **********************************************************/
 @media only screen and (max-width: 480px) {
-    
-    #bgBox{
-        top: 76px;
+
+    #bgBox {
+        top: 68px;
     }
-    
-    .menu_box{
+
+    .menu_box {
         width: 100%;
+        padding: 50px 35px;
     }
 
     /*헤더*/
@@ -259,12 +260,29 @@
     }
 
     .top {
-        height: 75px;
+        height: 70px;
+    }
+
+    .logo {
+        font-size: 25px;
+    }
+
+    .mob_menuBtn {
+        width: 65px;
+        height: 27px;
+    }
+
+    .mob_menuBtn a {
+        font-size: 15.5px;
+    }
+
+    .mob_cart {
+        font-size: 18px;
     }
 
     /*배너*/
     #ban.section.page1 .inbox {
-        height: 100vh;
+        height: 65vh;
     }
 
 
@@ -293,7 +311,7 @@
 
     #cont_1.section.page2 .cont_txt p.cont1_txt_2,
     #cont_3.section.page4 .cont_txt p.cont1_txt_2 {
-        font-size: 27px;
+        font-size: 23px;
         display: block;
         margin-top: -13%;
         margin-bottom: 0;
@@ -301,24 +319,42 @@
 
     #cont_1.section.page2 .btn_box,
     #cont_3.section.page4 .btn_box {
-        width: 140px;
+        width: 125px;
         margin-top: 40%;
     }
 
     /*세번째 섹션 - 상품리스트*/
     #cont_2.section.page3 .inbox {
-        height: 118vh;
+        height: auto;
     }
 
     #cont_2.section.page3 .prod_list li::before {
-        padding-top: 70%;
+        padding-top: 75%;
+    }
+
+    #cont_2.section.page3 .ptxt {
+        line-height: 27px;
+    }
+
+    #cont_2.section.page3 .ptit {
+        font-size: 20px;
+    }
+
+    #cont_2.section.page3 .pmore {
+        font-size: 16px;
     }
 
     /*마지막 섹션*/
 
     /*푸터*/
+
+    .info_logo {
+        font-size: 24px;
+    }
+
     #info.section.page5 .inbox {
-        margin-top: 10%;
+        margin-top: 18%;
+        height: 380px;
     }
 
     .info_txt {
@@ -335,5 +371,13 @@
         margin-right: 8%;
     }
 
+    .info_list .info_cate {
+        font-size: 17px;
+        padding-bottom: 15px;
+    }
+
+    .info_list li {
+        font-size: 15px;
+    }
 
 }

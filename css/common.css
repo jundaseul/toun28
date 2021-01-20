@@ -47,7 +47,7 @@
     background-color: rgba(0, 0, 0, 0.3);
     z-index: 99999999;
     overflow-y: scroll;
-/*    display: none;*/
+    display: none;
 }
 
 
