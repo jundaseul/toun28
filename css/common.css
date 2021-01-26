@@ -226,12 +226,6 @@
 
 
 
-
-
-
-
-
-
 /*하단 고정*/
 .footer_white {
     position: fixed;
@@ -242,3 +236,14 @@
     width: 2.5%;
     height: 100%;
 }
+
+
+/*글씨 드래그시 배경색 변경*/
+::selection { color:white; background:#333; }
+::-moz-selection { color:white; background:#333; } /*firefox*/
+
+
+
+
+
+
