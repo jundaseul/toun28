@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* prodpage.css - 상품페이지 css */
+
+/*상품페이지 영역**************************************************/
+#prodWrap {
+    position: relative;
+/*        height: calc(100vh - 80px);*/
+/*        height: 100vh;*/
+}
+
+#prodWrap .inbox {
+    width: 95%;
+}
+
+.prodpage {
+    position: relative;
+    height: calc(100vh - 80px);
+        margin-top: 80px;
+    display: flex;
+}
+
+.prodpage > div {
+    position: relative;
+    outline: 1px solid skyblue;
+}
+
+/*왼쪽 영역*/
+.prodpage div.prodBox_1 {
+    flex: 25%;
+    position: relative;
+    padding-left : 10px;
+}
+
+.prodside {
+    position: absolute;
+    top: 50%;
+    writing-mode: vertical-rl;
+    transform: translateY(-50%) rotate(180deg);
+    font-family:'Noto Sans KR', sans-serif;
+}
+
+.prodside small{
+    font-weight: 400;
+    color: #797979;
+}
+
+
+/*가운데 상품 이미지영역*/
+.prodpage div.prodBox_2 {
+    flex: 45%;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: #F0EEE8;
+    overflow: auto;
+    overflow-y: scroll;
+}
+
+/*이미지 박스*/
+.prod_img_box{
+    width: 75%;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*상품 이미지*/
+.prod_img {
+    width: 100%;
+}
+
+/*상품 상세 정보영역*/
+.prodpage div.prodBox_3 {
+    flex: 30%;
+    background-color: #F8F7F5;
+    padding: 90px 70px;
+}
+
+/*상품명, 상품가격 박스*/
+.prod_info{
+    border-bottom: 3px solid #08090B;
+    padding-bottom: 25px;
+}
+
+/*상품명*/
+.prod_tit{
+    font-size: 28px;
+    font-family:'Optima';
+    color: #08090B;
+    padding-bottom: 12px;
+}
+
+/*상품 가격*/
+.prod_price{
+    color: #a0a0a0;
+    font-weight: 100;
+    font-size: 21px;
+}
+
+
+/*상품 설명*/
+.prodBox_3 p{
+    padding: 40px 0;
+    line-height: 33px;
+    font-size: 17px;
+    color: #3e3e3e;
+}
+
+/*줄바꿈*/
+.break{
+    display: block;
+}
+
+/*버튼*/
+.prodbtn{
+    width: 150px;
+    height: 50px;
+    background-color: #08090B;
+    color: #fff;
+    border: none; 
+}
+
+.bagbtn{
+    margin-right: 20px;
+}
+
+
+

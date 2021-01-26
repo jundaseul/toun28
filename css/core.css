@@ -43,10 +43,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 
 /*font-family: 'Noto Serif KR', serif;*/
 /*font-family: 'Noto Serif SC', serif;*/
+/*font-family: 'Noto Sans KR', sans-serif;*/
 
 /*사이트 전체설정*/
 body{
@@ -67,6 +68,12 @@ body{
     width: 1200px;
     max-width: 100%;/*1200px보다 작아질때 화면에 맞춤!*/
     margin: 0 auto;
-/*    outline: 2px dashed pink;*/
+    outline: 2px dashed pink;
     overflow: hidden;
+}
+
+.clb::after{
+    clear: both;
+    display: block;
+    content: '';
 }
